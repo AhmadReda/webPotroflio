@@ -1,0 +1,535 @@
+/* Start Main Rules */ 
+.container
+{
+    width:1170px;
+    margin: auto;
+}
+.Clearfix
+{clear:both;}
+/* Start Main Rules */ 
+
+/* Start Header */ 
+.Header .Slider
+{
+    height:600px;
+    background-image: url(../Images/2.png);
+    background-size:cover;
+    
+    
+}
+.Header .Slider .Intro 
+{
+    margin:0px;
+    padding-top:200px;
+    height:600px;
+    text-align: center;
+    color:#FFF;
+}
+.Header .Slider .Intro h2
+{
+    margin:0px auto;
+    font-size:50px;
+    width:600px;
+    border-top:4px solid #FFF;
+    border-bottom:4px solid #FFF;
+    
+    
+}
+.Header .Slider .Intro button
+{
+    background:none;
+    margin-top:30px;
+    width:140px;
+    color:#FFF;
+    font-size:20px;
+    border:1px solid #FFF;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+
+
+.Header .Nav-Bar
+{
+    background-color:#252F31;
+    color:#FFF;
+    overflow:hidden;
+}
+.Header .Nav-Bar h2
+{
+    float:left;
+    text-transform: uppercase;
+}
+.Header .Nav-Bar h2 span
+{
+    color:#2DCC70;
+}
+.Header .Nav-Bar ul
+{
+    list-style: none;
+    Padding-left:0px;
+    float:right;
+    overflow:hidden;
+}
+.Header .Nav-Bar ul li
+{
+   
+    float:left;
+    padding:10px;
+    font-weight:bold;
+}
+.Header .Nav-Bar ul li a
+{
+    text-decoration:none;
+    color:#FFF;
+    
+}
+
+.Header .Nav-Bar ul li a span
+{
+    color:#30B570;
+}
+.Header .Nav-Bar ul li a:hover
+{
+    color:#30B570;
+}
+
+/* End Header */ 
+
+/* Start Features */ 
+.Features 
+{
+    overflow:hidden;
+    padding-top:40px;
+}
+.Features .Feat
+{
+    width:33.33333%;
+    float:left;
+    height:338px;
+    
+}
+.Features .Feat h2
+{
+    text-transform: uppercase;
+    color:#546366;
+}
+.Features .Feat p
+{
+    line-height:1.7;
+    color:#888;
+}
+/* End Features */
+
+/* Start About Me */ 
+
+.About-Me
+{
+    background-color:#F2F2F2;
+    overflow:hidden;
+}
+.About-Me .Image
+{
+    float:left;
+    width:40%;
+}
+.About-Me .Image img
+{
+    width:100%;
+}
+.About-Me .Info
+{
+    float:left;
+    width:60%;
+}
+.About-Me .Info h2
+{
+    margin:40px 0px 20px 40px ;
+    text-transform: uppercase;
+    color:#576266;
+}
+.About-Me .Info > p
+{
+    margin:0px 0px 10px 40px ;
+}
+.About-Me .Info > p:last-of-type
+{
+    margin-top:30px;
+}
+.About-Me .Info p
+{
+     line-height:1.6 ;
+    color:#929292;
+}
+.About-Me .Info .Hobbies
+{
+    overflow:hidden;
+    margin:20px 0 0 40px;
+}
+.About-Me .Info .Hobbies .Content
+{
+    float:left;
+    width:50%;
+    overflow: hidden;
+}
+.About-Me .Info .Hobbies .Content h3
+{
+    color:#6B7376;
+}
+
+.About-Me .Info .Hobbies .Content .Icons
+{
+    float:left;
+    width:12%;
+    margin-right: 5%;
+}
+.About-Me .Info .Hobbies .Content .Icons img
+{
+    max-width:100%;
+    margin:20 15 0 0 ;
+}
+.About-Me .Info .Hobbies .Content .Text
+{
+    float:left;
+    width:83%;
+}
+.About-Me .Info .Hobbies .Content .Text h3
+{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.About-Me .Info .Hobbies .Content .Text p
+{margin-top:0px;}
+
+/* End About Me */
+
+/* Start My Skills */
+.My-Skills
+{
+    padding-top:30px;
+    padding-bottom:50px;
+    overflow: hidden;
+}
+.My-Skills .Skills h2
+{
+    color:#576266;
+    text-transform:uppercase;
+    margin:25 0 20 40; 
+}
+.My-Skills .Skills p
+{
+    color:#909090;
+    line-height:1.6;
+    margin:0 0 10px 40px ;
+}
+.My-Skills .container .Skills button
+{
+    background:none;
+    margin-top:30px;
+    width:140px;
+    color:#2AC96C;
+    font-size:20px;
+    border:1px solid #2AC96C;
+    padding:10px;
+    margin-left:40px;
+    cursor:pointer;
+}
+.My-Skills .Skills,.My-Skills .Progress
+{
+    float:left;
+    width:50%;
+}
+.My-Skills .Progress .Technique{margin-left:50px}
+.My-Skills .Progress .Technique h3
+{
+    color:#596364;
+    text-transform:uppercase;
+}
+.My-Skills .Progress .Technique div
+{
+    background-color:#F2F2F2;
+    height:25px;
+}
+.My-Skills .Progress .Technique div span
+{
+    background-color:#2DCC70;
+    display: inline-block;
+    line-height:25px;
+    text-align:right;
+    color:white;
+    font-weight:bold;
+}
+/* End My Skills */
+
+/* Start Resume */
+.Resume
+{
+    background-color:#F2F2F2;
+    padding-top:50px;
+    padding-bottom:70px;
+    text-align: center;
+}
+.Resume h2
+{
+    color:#556366;
+    text-transform:uppercase;
+}
+.Resume p
+{color:#556364;}
+.Resume button
+{
+    background:none;
+    color:#61D692;
+    border:3px solid #61D692;
+    padding:10px;
+    font-weight:bold;
+    text-transform:uppercase;
+    margin:10px 0 30px 0;
+    cursor:pointer;
+}
+/* End Resume */
+/* Start My Education */
+.My-Education
+{
+    padding-top:30px;
+    padding-bottom:30px;
+    overflow: hidden;
+}
+.My-Education .Main,.My-Education .Main h2
+{
+    color:#616C70;
+    text-transform:uppercase;
+} 
+.My-Education .Main
+{
+    float:left;
+    width:50%;
+    margin-right:5%;
+}
+.My-Education .Exp
+{
+    float:left;
+    width:45%;
+}
+.My-Education .Exp h3
+{
+    margin-top:70px;
+    text-transform:uppercase;
+    color:#7B8386;
+    margin-bottom:8px;
+}
+.My-Education .Exp p,.My-Education .Exp span
+{
+    color:#8F8F8F;
+    margin-bottom:8px;
+    line-height:1.6;
+}
+.My-Education .Exp .a
+{
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    display:block;
+    width:12%;
+    margin-top:5px;
+    text-align:center;
+}
+.My-Education hr
+{
+    background-color:#CCCCCC;
+    margin:20px 0;
+    height:1px ;
+    border: 0px;
+}
+/* End My Education */
+/* Start testimonials */
+.testimonials
+{
+    background-color:#F2F2F2;
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+}
+.testimonials q
+{
+    color:#A4A4A4;
+    line-height:1.8;
+    font-size:18px;
+    font-style:italic;
+    font-weight:bold;
+    font-family:arial;
+    
+}
+.testimonials h3
+{
+    color:#586264;
+    text-transform:uppercase;
+    margin-bottom:30px;
+}
+.testimonials ul
+{
+    list-style:circle;
+    padding-left:0px;
+    text-align:center;
+}
+.testimonials ul li
+{
+    width:15px;
+    height:15px;
+    border:2px solid green;
+    display:inline-block;
+    cursor:pointer;
+}
+.testimonials ul li .Active,.testimonials ul li:hover   
+{
+    background-color:green;
+}
+
+/* End testimonials */
+/* Start Portflio */
+.Portflio
+{
+    padding-top:50px;
+    padding-bottom:70px;
+    text-align:center;
+    
+}
+.Portflio h2
+{
+    color:#546265;
+    text-transform:uppercase;
+    font-size:25px;
+    font-family:arial;
+}
+.Portflio p
+{
+    line-height:1.7;
+    color: #929292;
+    margin-bottom:30px;
+}
+.Portflio .Our-Work
+{
+    overflow:hidden;
+}
+.Portflio .Our-Work >div
+{
+    float:left;
+    width:33.3333%;
+    margin-bottom:10px;
+    
+}
+.Portflio .Our-Work >div img
+{
+    width:92%;
+    margin:10px;
+    padding:3px;
+    background-color:#fff;
+    border:1px solid #CCC;
+    box-shadow:10px 10px 12px #ccc;
+}
+
+/* End Portflio */
+
+/* Start Contact */
+.Contact
+{
+    background-color:#252F31;
+    padding-top:50px;
+    padding-bottom:70px;
+    overflow:hidden;
+}
+.Contact .Info 
+{
+     width:50%;
+    float:left;
+    margin-right:5%;
+}
+.Contact h2
+{
+    color:#FFF;
+    text-transform:uppercase;
+    margin-left:40px;
+    
+}
+.Contact p 
+{
+    color:#757B7B;
+    margin-left:40px;
+    line-height:1.7;
+}
+.Contact .Info strong
+{
+    color:#FFF;
+}
+
+
+.Contact form
+{
+    width:45%;
+    float:left;  
+}
+.Contact label
+{
+    display:block;
+    color:white;
+    margin:10px 0px ;
+    font-size:20px;
+}
+
+.Contact input 
+{
+    background-color:#4B5557;
+    color:#fff;
+    padding:10px;
+    border:0px;
+    width:80%;
+    margin-bottom:10px;
+}
+.Contact  textarea
+{
+    background-color:#4B5557;
+    color:#fff;
+    padding:10px;
+    border:0px;
+    width:80%;
+    margin-bottom:10px;
+    height:300px;
+    margin-top:15px;
+}
+.Contact input[type="submit"]
+{
+    background-color:#191E21;
+    color:white;
+    padding:10px 20px ;
+    border:0px ;
+    margin-top:10px;
+    text-transform:uppercase;
+    width:30%;
+    cursor:pointer;
+}
+
+/* Start Footer */
+.Footer
+{
+    background-color: #191E21;
+    color:#4C5456;
+    padding:20px 0;
+    text-align:center;
+}
+.Footer ul
+{
+   list-style: none;
+    padding-left:0px;
+}
+.Footer ul li 
+{
+    display:inline-block;
+}
+.Footer ul li img
+{
+    padding:10px;
+    width:28px;
+    cursor:pointer;
+}
+
+/* End Footer */
